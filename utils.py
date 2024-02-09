@@ -15,4 +15,14 @@ def factorial(n):
     else:
         return n * factorial(n - 1)
 
+def pyatirka(n):
+    if n%5!=0:
+        return False
+    while n%5==0:
+        n=n/5
+    if n%5!=0 and n!=1:
+        return False
+    else:
+        return True
+
 
