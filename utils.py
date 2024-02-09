@@ -15,8 +15,7 @@ def factorial(n):
     else:
         return n * factorial(n - 1)
 
-<<<<<<< Updated upstream
-=======
+
 def pyatirka(n):
     if n%5!=0:
         return False
@@ -27,6 +26,7 @@ def pyatirka(n):
     else:
         return True
 
+
 def dva(n):
     if n%2!=0:
         return False
@@ -36,6 +36,4 @@ def dva(n):
         return False
     else:
         return True
-
->>>>>>> Stashed changes
 
